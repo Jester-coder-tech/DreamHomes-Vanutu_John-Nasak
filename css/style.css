@@ -1,0 +1,135 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+/* Header container */
+.site-header {
+  background: #be6c00;
+  padding: 10px 0;
+  text-align: center;
+}
+.logo-container{
+  margin-bottom: 10px;
+}
+/* Flexbox for logo + nav */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;       /* adjust this value to make it smaller or larger */
+  width: auto;      
+}
+
+/* Navigation bar */
+nav {
+  background: #be6c00;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: lightgray;
+}
+
+
+/* Hero section */
+.hero {
+  text-align: center;
+  background: lightblue;
+  padding: 20px;
+}
+
+/* Tables */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.sale {
+  color: green;
+}
+.rented {
+  color: gray;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.gallery img {
+  width: 250px;
+  box-shadow: 2px 2px 5px #aaa;
+}
+
+/* Contact form */
+form {
+  width: 50%;
+  margin: auto;
+  background: #eee;
+  padding: 20px;
+  border-radius: 8px;
+}
+form input, form textarea, form select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+button {
+  background: #004080;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+button:hover {
+  background: #2244b4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #434d57;
+  color: white;
+  padding: 10px;
+}
+
