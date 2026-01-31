@@ -15,7 +15,7 @@ body {
   table {
     width: 100%;
   }
-}
+
 
 /* Header container */
 .site-header {
@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-  height: 100px;       /* adjust this value to make it smaller or larger */
+  height: 50px;       /* adjust this value to make it smaller or larger */
   width: auto;      
 }
 
@@ -132,4 +132,5 @@ footer {
   color: white;
   padding: 10px;
 }
+
 
