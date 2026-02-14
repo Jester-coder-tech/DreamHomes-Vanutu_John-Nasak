@@ -23,7 +23,7 @@ body {
   padding: 10px 0;
   text-align: center;
 }
-.logo-container{
+logo-container{
   margin-bottom: 10px;
 }
 /* Flexbox for logo + nav */
@@ -132,5 +132,6 @@ footer {
   color: white;
   padding: 10px;
 }
+
 
 
